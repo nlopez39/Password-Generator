@@ -1,19 +1,23 @@
 # Password-Generator
 ## Description
 This application is designed to help you create strong and secure passwords effortlessly. 
-
-## Features
-
 * Custom Criteria: The Password Generator App allows you to set multiple criteria for your password. You can specify the character types you want, including uppercase letters, lowercase letters, numbers, and special characters.
 
 * Length Control: Tailor the length of your password to meet your security needs. Whether you need a shorter password for a specific account or a longer one for added protection, our app has you covered.
 
 
-**Link to Password-Generator**: [https://nlopez39.github.io/Portfolio/](https://nlopez39.github.io/Password-Generator/)
+ **Link to Password-Generator**: [https://nlopez39.github.io/Portfolio/](https://nlopez39.github.io/Password-Generator/)
 
 ## Demo
 
 ![Password Generator Demo](images/)
+
+## Usage
+
+1. **Launch the App**: Open the Password Generator App on your device and click on the 'Generate Password' button. 
+2. **Specify Length**: Indicate the desired length of your password which must be at least 8 characters and no more than 128. 
+3. **Set Criteria**: Answer the prompts regarding the character types you want in your password. Choose from options like uppercase letters, lowercase letters, numbers, and special characters.
+4. **Results**: After all the prompts are answered, you will see the password appear inside the dashed box. Easily copy the generated password to your clipboard and paste it wherever you need a secure password.
 
 ## Installation
 Follow these steps to set up and run the project locally on your machine.
@@ -31,7 +35,7 @@ Follow these steps to set up and run the project locally on your machine.
 3. Clone the repository:
 
     ```bash
-    git clone git@github.com:nlopez39/portfolio.git
+    git clone git@github.com:nlopez39/password-generator.git
     ```
 
 ### Install Dependencies
@@ -51,46 +55,17 @@ Follow these steps to set up and run the project locally on your machine.
 ### Run the Project
 Once the installation is complete, you can run the project:
     ```bash
-    npm start
+    npm start   
     ```
-
-
-## Usage
-### Prerequisites
-
-Before getting started, ensure you have the following prerequisites installed:
-
-- Web Browser: To view and interact with the portfolio.
-- Code Editor: Optionally, for those who wish to explore or modify the source code.
-
-### View the Portfolio
-1. Clone the repository to your local machine:
-
-    ```bash
-    git clone git@github.com:nlopez39/password-generator.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd your-portfolio
-    ```
-
-3. Open the `index.html` file in your preferred web browser.
-
-### Explore the Source Code
-If you want to explore or modify the source code, follow these steps:
-
-1. Open the project in your preferred code editor.
-
-2. Navigate through the project structure to find HTML, CSS, or other relevant files.
-
-3. Make desired changes and save the files.
-
-4. Refresh the `index.html` file in your web browser to see the updated portfolio.
+   
 
 
 ## Credits
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math 
+https://www.w3schools.com/js/js_random.asp
+https://owasp.org/www-community/password-special-characters
+https://wmich.edu/arts-sciences/technology-password-tips
 
 
 ## License
