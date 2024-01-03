@@ -41,29 +41,37 @@ function generatePassword(){
   }
   //generate a random password with the specified characteristics 
   //this will be the temp variable that holds the password 
-  var allChars = "";
+  //create 4 arrays 
+  var lowerCaseArray = ["a", "b", "c", "d", "e", "f", "g", "h","i", "j", "k", "l","m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+  var upperCaseArray = ["A", "B", "C", "D", "E", "F", "G", "H","I", "J", "K", "L","M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+  var numericsArray = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+  var specCharArray =["@","#", "$" , "%", "^", "&" , "*", "(", ")", "_", "+", "-", "=", "[" ,"]", "{", "}", "|" , ";", "'", ":", ",", ".", "<", ">", "?", "/"];
+
+  var tempArray = [];
   var password = "";
 
-  //if lowercase type was chosen then add all the lowercase letters to the temp string variable 
+  //if lowercase type was chosen then concat the lowercase letters to the temp string array
   if(lowerCase === "y"){
-    allChars += "abcdefghijklmnopqrstuvwxyz";
+    tempArray=tempArray.concat(lowerCaseArray);
   }
-  //if Uppercase type was chosen then add all the lowercase letters to the temp string variable 
+  //if Uppercase type was chosen then concat the upperCase letters to the temp string array 
   if(upperCase === "y"){
-    allChars += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    tempArray=tempArray.concat(upperCaseArray);
   }
-  //if numerics type was chosen then add all the lowercase letters to the temp string variable 
+  //if numerics type was chosen then concat the numerics to the temp string array 
   if(numerics === "y"){
-    allChars += "0123456789";
+   tempArray=tempArray.concat(numericsArray);
   }
-  //if specialChars type was chosen then add all the lowercase letters to the temp string variable 
+  //if specialChars type was chosen then concat the special characters to the temp string array
   if(specialChars === "y"){
-    allChars +="@#$%^&*()_+-=[]{}|;':,.<>?/";
+    tempArray=tempArray.concat(specCharArray);
   }
   //for loop will create a random password with the user input length 
   for (var i = 0; i < passwordLength; i++) {
-    var randomIndex = Math.floor(Math.random() * allChars.length);
-    password += allChars[randomIndex];
+    //will choose a random number starting from 0 to the length of the allChars string
+    //Math.floor rounds down that number to the closest integer
+    var randomIndex = Math.floor(Math.random() * tempArray.length);
+    password += tempArray[randomIndex];
   }
 
   return password;
