@@ -52,19 +52,19 @@ function generatePassword(){
 
   //if lowercase type was chosen then concat the lowercase letters to the temp string array
   if(lowerCase === "y"){
-    tempArray=tempArray.concat(lowerCaseArray);
+    tempArray= tempArray.concat(lowerCaseArray);
   }
   //if Uppercase type was chosen then concat the upperCase letters to the temp string array 
   if(upperCase === "y"){
-    tempArray=tempArray.concat(upperCaseArray);
+    tempArray= tempArray.concat(upperCaseArray);
   }
   //if numerics type was chosen then concat the numerics to the temp string array 
   if(numerics === "y"){
-   tempArray=tempArray.concat(numericsArray);
+   tempArray= tempArray.concat(numericsArray);
   }
   //if specialChars type was chosen then concat the special characters to the temp string array
   if(specialChars === "y"){
-    tempArray=tempArray.concat(specCharArray);
+    tempArray= tempArray.concat(specCharArray);
   }
   //for loop will create a random password with the user input length 
   for (var i = 0; i < passwordLength; i++) {
