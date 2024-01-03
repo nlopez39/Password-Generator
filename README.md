@@ -15,7 +15,7 @@ This application is designed to help you create strong and secure passwords effo
 3. **Set Criteria**: Answer the prompts regarding the character types you want in your password. Choose from options like uppercase letters, lowercase letters, numbers, and special characters.
 4. **Results**: After all the prompts are answered, you will see the password appear inside the dashed box. Easily copy the generated password to your clipboard and paste it wherever you need a secure password.
 
-![Password-generatorGif](Assets/Password-Generator-g.gif)
+![Password-generatorGif](Assets/Password-Generator-g.gif=250x250)
 
 ## Installation
 Follow these steps to set up and run the project locally on your machine.
