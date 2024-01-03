@@ -1,6 +1,6 @@
 # Password-Generator
 ## Description
-This application is designed to help you create strong and secure passwords effortlessly. 
+This application is designed to help you create strong and secure passwords effortlessly. Features include: 
 * Custom Criteria: The Password Generator App allows you to set multiple criteria for your password. You can specify the character types you want, including uppercase letters, lowercase letters, numbers, and special characters.
 
 * Length Control: Tailor the length of your password to meet your security needs. Whether you need a shorter password for a specific account or a longer one for added protection, our app has you covered.
