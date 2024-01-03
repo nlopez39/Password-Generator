@@ -25,10 +25,10 @@ function generatePassword(){
  //while loop to make sure that user selects at least one character type
   var type = true;
   while(type){
-    var lowerCase = prompt("Would you like lowercase characters (y/n)?");
-    var upperCase = prompt("Would you like uppercase characters (y/n)?");
-    var numerics = prompt("Would you like numeric characters (y/n)?");
-    var specialChars = prompt("Would you like special characters characters (y/n)?");
+    var lowerCase = prompt("Would you like lowercase characters (y/n)?").toLowerCase();
+    var upperCase = prompt("Would you like uppercase characters (y/n)?").toLowerCase();
+    var numerics = prompt("Would you like numeric characters (y/n)?").toLowerCase();
+    var specialChars = prompt("Would you like special characters characters (y/n)?").toLowerCase();
 
   //check that at least one character type was selected. It is required 
   if(lowerCase ===  "n" && upperCase === "n" && numerics=== "n" && specialChars === "n"){

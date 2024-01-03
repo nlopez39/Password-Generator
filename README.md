@@ -63,6 +63,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://www.w3schools.com/js/js_random.asp
 https://owasp.org/www-community/password-special-characters
 https://wmich.edu/arts-sciences/technology-password-tips
+https://www.shecodes.io/athena/3183-how-to-make-a-prompt-input-in-javascript-case-insensitive#:~:text=By%20adding%20the%20.,in%20uppercase%20or%20lowercase%20characters.
 
 
 ## License
