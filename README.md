@@ -9,7 +9,7 @@ This application is designed to help you create strong and secure passwords effo
 * Length Control: Tailor the length of your password to meet your security needs. Whether you need a shorter password for a specific account or a longer one for added protection, our app has you covered.
 
 
-**Link to Password-Generator**: https://nlopez39.github.io/Portfolio/
+**Link to Password-Generator**: [https://nlopez39.github.io/Portfolio/](https://nlopez39.github.io/Password-Generator/)
 
 ## Demo
 
